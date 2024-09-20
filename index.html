@@ -299,6 +299,41 @@
                 font-size: 1.2em;
             }
 
+            .talk-content {
+                padding: 20px 30px;
+                background-color: #f0f0f0;
+                position: relative;
+                border-radius: 6px;
+            }
+
+            .talk-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+
+            .talk-links {
+                display: flex;
+                gap: 10px;
+            }
+
+            .talk-links a {
+                display: inline-block;
+                color: #333;
+                text-decoration: none;
+            }
+
+            .talk-links a:hover {
+                color: #000;
+            }
+
+            .talk-links svg {
+                width: 20px;
+                height: 20px;
+                vertical-align: middle;
+            }
+
             .talk-content .date {
                 font-style: italic;
                 color: #666;
@@ -446,7 +481,7 @@
             <img src="ak.jpg" class="avatar" />
             <div class="header-content">
                 <h1>Ashwanth Kumar</h1>
-                <div class="subtitle">The Generalist Engineer</div>
+                <div class="subtitle">Fractional Software Architect</div>
                 <div class="social-links">
                     <a
                         href="https://github.com/ashwanthkumar"
@@ -775,57 +810,455 @@
                 <div class="talks-timeline">
                     <div class="talk-card left">
                         <div class="talk-content">
-                            <h3>"Why we built a distributed system"</h3>
+                            <div class="talk-header">
+                                <h3>Why we built a distributed system</h3>
+                                <div class="talk-links">
+                                    <a
+                                        href="https://speakerdeck.com/ashwanthkumar/why-we-built-a-distributed-system-dsconf-2018"
+                                        title="View Presentation"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path
+                                                d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"
+                                            ></path>
+                                            <polyline
+                                                points="13 2 13 9 20 9"
+                                            ></polyline>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        href="https://www.youtube.com/watch?v=zSgxt9JsTPg&list=PLyMKpkdEV2csQg93bEPv2R27sawxIm9zG&index=12"
+                                        title="Watch Video"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <polygon
+                                                points="23 7 16 12 23 17 23 7"
+                                            ></polygon>
+                                            <rect
+                                                x="1"
+                                                y="5"
+                                                width="15"
+                                                height="14"
+                                                rx="2"
+                                                ry="2"
+                                            ></rect>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
                             <div class="date">April 2018</div>
                             <p>DSConf 2018, Pune, India</p>
                         </div>
                     </div>
+
                     <div class="talk-card right">
                         <div class="talk-content">
-                            <h3>
-                                "Lessons scaling operations to everyone @indix"
-                            </h3>
+                            <div class="talk-header">
+                                <h3>
+                                    Lessons scaling operations to everyone
+                                    @indix
+                                </h3>
+
+                                <div class="talk-links">
+                                    <a
+                                        href="https://speakerdeck.com/ashwanthkumar/lessons-scaling-operations-to-everyone-at-indix"
+                                        title="View Presentation"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path
+                                                d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"
+                                            ></path>
+                                            <polyline
+                                                points="13 2 13 9 20 9"
+                                            ></polyline>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        href="https://www.youtube.com/watch?v=zUTz1eqwBkI"
+                                        title="Watch Video"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <polygon
+                                                points="23 7 16 12 23 17 23 7"
+                                            ></polygon>
+                                            <rect
+                                                x="1"
+                                                y="5"
+                                                width="15"
+                                                height="14"
+                                                rx="2"
+                                                ry="2"
+                                            ></rect>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
                             <div class="date">November 2017</div>
                             <p>Mini Cloud Conf, Chennai, India</p>
                         </div>
                     </div>
                     <div class="talk-card left">
                         <div class="talk-content">
-                            <h3>"Using Monoids for Large Scale Aggregates"</h3>
+                            <div class="talk-header">
+                                <h3>
+                                    Using Monoids for Large Scale Aggregates
+                                </h3>
+                                <div class="talk-links">
+                                    <a
+                                        href="https://speakerdeck.com/ashwanthkumar/using-monoids-for-large-scale-aggregates"
+                                        title="View Presentation"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path
+                                                d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"
+                                            ></path>
+                                            <polyline
+                                                points="13 2 13 9 20 9"
+                                            ></polyline>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        href="https://www.youtube.com/watch?v=UW3Z_rIPn3w&list=PLjkHSzY9VuL9UI2oYMc4HKKu_Dl9TOnPL&index=62"
+                                        title="Watch Video"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <polygon
+                                                points="23 7 16 12 23 17 23 7"
+                                            ></polygon>
+                                            <rect
+                                                x="1"
+                                                y="5"
+                                                width="15"
+                                                height="14"
+                                                rx="2"
+                                                ry="2"
+                                            ></rect>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
                             <div class="date">November 2017</div>
                             <p>Scala.io, Lyon, France</p>
                         </div>
                     </div>
                     <div class="talk-card right">
                         <div class="talk-content">
-                            <h3>"Suuchi - Distributed System Primitives"</h3>
+                            <div class="talk-header">
+                                <h3>Suuchi - Distributed System Primitives</h3>
+                                <div class="talk-links">
+                                    <a
+                                        href="https://speakerdeck.com/ashwanthkumar/suuchi-distributed-system-primitives"
+                                        title="View Presentation"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path
+                                                d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"
+                                            ></path>
+                                            <polyline
+                                                points="13 2 13 9 20 9"
+                                            ></polyline>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        href="https://www.youtube.com/watch?v=0pW6tAM8rIQ"
+                                        title="Watch Video"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <polygon
+                                                points="23 7 16 12 23 17 23 7"
+                                            ></polygon>
+                                            <rect
+                                                x="1"
+                                                y="5"
+                                                width="15"
+                                                height="14"
+                                                rx="2"
+                                                ry="2"
+                                            ></rect>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
                             <div class="date">April 2017</div>
                             <p>Devday, Chennai</p>
                         </div>
                     </div>
                     <div class="talk-card left">
                         <div class="talk-content">
-                            <h3>
-                                "Lessons from managing Hadoop clusters on AWS
-                                @indix"
-                            </h3>
+                            <div class="talk-header">
+                                <h3>
+                                    Lessons from managing Hadoop clusters on AWS
+                                    @indix
+                                </h3>
+
+                                <div class="talk-links">
+                                    <a
+                                        href="https://speakerdeck.com/ashwanthkumar/lessons-from-managing-hadoop-clusters-on-aws-at-indix"
+                                        title="View Presentation"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path
+                                                d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"
+                                            ></path>
+                                            <polyline
+                                                points="13 2 13 9 20 9"
+                                            ></polyline>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        href="https://www.youtube.com/watch?v=eBbgylpRufQ"
+                                        title="Watch Video"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <polygon
+                                                points="23 7 16 12 23 17 23 7"
+                                            ></polygon>
+                                            <rect
+                                                x="1"
+                                                y="5"
+                                                width="15"
+                                                height="14"
+                                                rx="2"
+                                                ry="2"
+                                            ></rect>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
                             <div class="date">November 2016</div>
                             <p>DevopsDays, India</p>
                         </div>
                     </div>
                     <div class="talk-card right">
                         <div class="talk-content">
-                            <h3>"Lessons from Building Distributed RocksDB"</h3>
+                            <div class="talk-header">
+                                <h3>
+                                    Lessons from Building Distributed RocksDB
+                                </h3>
+                                <div class="talk-links">
+                                    <a
+                                        href="https://speakerdeck.com/ashwanthkumar/lessons-from-building-distributed-rocksdb"
+                                        title="View Presentation"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path
+                                                d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"
+                                            ></path>
+                                            <polyline
+                                                points="13 2 13 9 20 9"
+                                            ></polyline>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        href="https://www.youtube.com/watch?v=PSCa9_Avne0"
+                                        title="Watch Video"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <polygon
+                                                points="23 7 16 12 23 17 23 7"
+                                            ></polygon>
+                                            <rect
+                                                x="1"
+                                                y="5"
+                                                width="15"
+                                                height="14"
+                                                rx="2"
+                                                ry="2"
+                                            ></rect>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
                             <div class="date">November 2016</div>
                             <p>Geeknight Chennai</p>
                         </div>
                     </div>
                     <div class="talk-card left">
                         <div class="talk-content">
-                            <h3>
-                                "Lessons from running production infra on AWS
-                                Spot Reliably"
-                            </h3>
+                            <div class="talk-header">
+                                <h3>
+                                    Lessons from running production infra on AWS
+                                    Spot Reliably
+                                </h3>
+
+                                <div class="talk-links">
+                                    <a
+                                        href="https://speakerdeck.com/ashwanthkumar/matsya-geeknight-april-2016"
+                                        title="View Presentation"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path
+                                                d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"
+                                            ></path>
+                                            <polyline
+                                                points="13 2 13 9 20 9"
+                                            ></polyline>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        href="https://www.youtube.com/watch?v=qeBV9JRoTOA"
+                                        title="Watch Video"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <polygon
+                                                points="23 7 16 12 23 17 23 7"
+                                            ></polygon>
+                                            <rect
+                                                x="1"
+                                                y="5"
+                                                width="15"
+                                                height="14"
+                                                rx="2"
+                                                ry="2"
+                                            ></rect>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
                             <div class="date">April 2016</div>
                             <p>Geeknight Chennai</p>
                         </div>
